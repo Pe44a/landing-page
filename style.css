@@ -1,0 +1,47 @@
+body {
+    /*margin 0 removes unnecessary white lines around any header etc*/
+    margin: 0;
+    /*every body element acquires this font style*/
+    font-family:  "Gill Sans", sans-serif;;
+}
+
+
+.header {
+    /*.left and .right element are in one row cuz display: flex; default value is dsplay:row;*/
+    display: flex;
+    /* seperates .left and .right element from each other */
+    justify-content: space-between;
+    padding: 8px;
+    background-color: #1f2937;
+  }
+  
+  ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 18px;
+    list-style: none;
+  }
+
+/* every a(link) element gets those properties bellow */
+  a {
+      text-decoration: none;
+      font-size: 24px;
+      color: #e5e7eb;
+  }
+  
+  /*given clases .left and .right, align those elements at the center(vertically)*/
+  .left, .right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+/*those margin properties align .left and .right clases, further from left and right border  */
+  .left {
+      color: white;
+      margin-left: 300px;
+  }
+
+  .right {
+      margin-right: 300px;
+  }
