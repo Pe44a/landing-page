@@ -14,6 +14,12 @@ body {
     padding: 8px;
     background-color: #1f2937;
   }
+
+
+  img {
+    max-width: 400px;
+    max-height: 400px;
+  }
   
   ul {
     display: flex;
@@ -22,6 +28,12 @@ body {
     gap: 18px;
     list-style: none;
   }
+
+  p {
+
+    margin: 0;
+  }
+
 
 /* every a(link) element gets those properties bellow */
   a {
@@ -45,3 +57,46 @@ body {
   .right {
       margin-right: 300px;
   }
+
+
+ .media {
+    /*display:flex; makes any content inside container .media align in a row*/
+    display: flex;
+    justify-content: center;
+    gap: 408px;
+    background-color: #1f2937;
+    padding: 120px;
+  
+  }
+
+  .content {
+
+    max-width: 500px;
+  }
+
+  .headline {
+
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+  }
+
+  .subtext {
+
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 11px;
+  }
+
+
+  .content button {
+
+    font-size: 18px;
+    padding: 6px;
+    width: 120px;
+    border-radius: 10px;
+    color: white;
+    background-color: #3882f6;
+    border-style: none;
+  
+  }  
