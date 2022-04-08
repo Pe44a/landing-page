@@ -2,7 +2,7 @@ body {
     /*margin 0 removes unnecessary white lines around any header etc*/
     margin: 0;
     /*every body element acquires this font style*/
-    font-family:  "Gill Sans", sans-serif;;
+    font-family:  "Gill Sans", sans-serif;
 }
 
 
@@ -48,7 +48,7 @@ body {
     align-items: center;
     gap: 16px;
   }
-/*those margin properties align .left and .right clases, further from left and right border  */
+/*those margin properties .left and .right clases, align further from left and right border  */
   .left {
       color: white;
       margin-left: 300px;
@@ -88,6 +88,10 @@ body {
     margin-bottom: 11px;
   }
 
+  .content {
+
+    text-align: start;
+  }
 
   .content button {
 
@@ -98,5 +102,50 @@ body {
     color: white;
     background-color: #3882f6;
     border-style: none;
+    font-weight: bold;
   
   }  
+
+
+  .square {
+border-color: black;
+border: 4px;
+border-style: solid;
+height: 200px;
+border-radius: 15px;
+border-color: #3882f6;
+
+  }
+
+  .randominfocontainer{
+
+    display: flex;
+    justify-content: center;
+    margin: 35px;
+    font-weight: bolder;
+    font-size: 36px;
+
+  }
+
+  .randinfsubtxtcontainer {
+
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-bottom: 120px;
+  }
+
+  .randinfsubtxtcontainer p {
+
+    margin-top: 10px;
+  }
+
+
+
+  .randinfosubtext {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: none;
+   width: 200px;
+  }
