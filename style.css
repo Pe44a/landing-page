@@ -86,6 +86,7 @@ body {
     font-size: 18px;
     color: #e5e7eb;
     margin-bottom: 11px;
+  
   }
 
   .content {
@@ -138,6 +139,7 @@ border-color: #3882f6;
   .randinfsubtxtcontainer p {
 
     margin-top: 10px;
+    color: #656565;
   }
 
 
@@ -177,4 +179,49 @@ border-color: #3882f6;
     font-weight: bold;
     display: flex;
     justify-content: flex-end;
+  }
+
+  .ctacontainer {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+  }
+
+  .cta {
+
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: #3882f6;
+    padding: 50px;
+    max-width: 1100px;
+  }
+
+  .rightcta button {
+
+    border-color: white;
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 6px;
+    padding-left: 28px;
+    padding-right: 28px;
+    color: white;
+    background-color: #3882f6;
+   
+
+  }
+
+  .bold {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .notbold {
+
+    color: #e5e7eb;
+    font-size: 18px ;
   }
