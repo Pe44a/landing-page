@@ -139,7 +139,7 @@ border-color: #3882f6;
   .randinfsubtxtcontainer p {
 
     margin-top: 10px;
-    color: #656565;
+  
   }
 
 
@@ -180,13 +180,13 @@ border-color: #3882f6;
     display: flex;
     justify-content: flex-end;
   }
-
+  /*this container is white area that is around .cta*/
   .ctacontainer {
     display: flex;
     justify-content: center;
     padding: 100px;
   }
-
+  /*this class is responsible how text is aligned(for visual properties too) inside .cta*/
   .cta {
 
     display: flex;
@@ -197,7 +197,7 @@ border-color: #3882f6;
     padding: 50px;
     max-width: 1100px;
   }
-
+  /*given class is responsible for buttons visuals*/
   .rightcta button {
 
     border-color: white;
@@ -213,7 +213,8 @@ border-color: #3882f6;
    
 
   }
-
+  
+  /*.bold and .notbold classes allows to change properties for each class separately*/
   .bold {
     font-size: 24px;
     font-weight: bold;
